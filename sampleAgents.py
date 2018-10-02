@@ -123,7 +123,7 @@ class SensingAgent(Agent):
 
 # GoWestAgent
 #
-# Always goes west when it is possible, if not possible, randomly chose another action
+# Always goes west when it is possible, if not possible, randomly go north or south
 class GoWestAgent(Agent):
 
         def getAction(self,state):
